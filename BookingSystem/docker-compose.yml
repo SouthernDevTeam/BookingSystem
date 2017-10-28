@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  bookingsystem:
+    image: bookingsystem
+    build:
+      context: ./BookingSystem
+      dockerfile: Dockerfile
